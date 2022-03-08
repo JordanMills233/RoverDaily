@@ -20,8 +20,6 @@ response = json.loads(requests.get(a).text)
 
 t = response['photos'][000]['img_src']
 
-#print(response)
-
 ## Set up the image URL and filename
 image_url = t
 filename = 'dailyimage.jpg'
